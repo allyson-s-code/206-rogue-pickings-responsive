@@ -1,0 +1,207 @@
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	font-size: 1em;
+	flex-flow: row wrap; 
+}
+
+.container{
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	flex-flow: row wrap; 
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+	font-size: 1.125em;
+}
+h3 {
+	font-size: .75em;
+}
+
+p {
+	font-size: .875em;
+	line-height: 1.3125em;
+    padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header {
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	flex-flow: row wrap;
+}
+
+header h1 {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	flex-flow: row wrap;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+  	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+	line-height: 2.5em;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .875em;
+	width: 100%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+.main-image {
+	width: 100%;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+
+}
+
+.main-title {
+	height: auto;
+	width: 100%;
+}
+.main-title h2 {
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5625em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eee;
+	display: flex;
+  	justify-content: flex-start;
+  	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
+
+}
+
+.section-one h3 {
+	padding: 10px;
+	display: flex;
+  	justify-content: flex-start;
+  	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+
+.section-two h3,
+.section-three h3 {
+	padding: 10px;
+	display: flex;
+  	justify-content: flex-start;
+  	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+.menu {
+	list-style: none;
+	justify-content: flex-start;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.3125em;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	flex-flow: row wrap;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .875em;
+}
