@@ -56,9 +56,10 @@ header {
 header h1 {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
-	padding-top: 2em;
-	padding-bottom: 1em;
   	text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: .5em;
+	margin: 0;
 }
 
 header h1 span {
